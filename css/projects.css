@@ -1,0 +1,172 @@
+body{
+	background:lightblue;
+	line-height:2;
+	
+}
+h2{
+	margin-top:-10px;
+	margin-bottom:-10px;
+}
+p{
+	font-size:120%;
+}
+h1{
+	margin-top:-10px;
+	margin-bottom:-10px;
+}
+
+div{
+	width:100%;
+}
+
+div img{
+	width:100%;
+
+}
+
+.my_links{
+	color:red;
+	text-decoration:none;
+	font-size:150%;
+}
+
+.logo img{
+	width:12%;
+	border-radius:50%;
+	float:right;
+	padding-top:1%;
+	clear:both;
+}
+h4{
+	float:right;
+	font-size:140%;
+	padding-left:15%;
+	padding-right:18%;
+	padding-top:0%;
+	margin-top:2%;
+	
+}
+
+.icon{
+	font-size:180%;
+	text-decoration:none;
+	float:right;
+}
+#close{
+	display:none;
+
+}
+nav{	
+	float:left;
+	clear:both;
+	padding-left:2.5%;
+	width:40%;
+	height:60vh;
+	background:#f0f0f0;
+	clear:both;
+	position:absolute;
+	margin-top:9.5%;
+	display:none;
+
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	padding-top:12%;
+	font-size:150%;
+	color:black;
+}
+
+@media screen and (min-Width:992px){
+	
+	/*Let me Hide the Hambaggaer Menus*/
+	.icon{
+		display:none;
+	}
+	
+	/*let me put my logo in a different position*/
+	.logo img{
+	width:7%;
+	border-radius:50%;
+	float:left;
+	padding-top:1%;
+	clear:both;
+	margin-top:-1%;
+	}
+	
+	/* let me Remove the Nav from its Hidding Location*/
+	nav{	
+	clear:both;
+	display:block;
+	float:right;
+	margin-top:-3%;
+	background:none;
+	margin-left:50%;
+	}
+	
+	/* let me Get those links in the Nav and style them as well*/
+	nav a{
+	text-decoration:none;
+	display:inline-block;
+	padding-left:10%;
+	}
+	
+	/* let me style that h4 */
+	h4{
+	float:left;
+	}
+    
+	/* let me know mak my image somhow big */
+	.me{
+	width:40%;
+	height:80vh;
+	float:right;
+	margin-top:5%;
+	margin-right:6%;
+	}
+	
+	.me img{
+	width:50%;
+	height:100%;
+	float:right;
+	}
+	.mywork{
+	width:40%;
+	height:70vh;
+	float:left;
+	padding-top:2%;
+	padding-left:3%;
+	line-height:1.3;
+	margin-top:3%;
+	font-size:125%;
+	font-weight:bold;
+	}
+	#first{
+		padding-top:10%;
+		margin-left:30%;
+	}
+	.mypara{
+		margin-left:2%;
+		width:40%;
+	}
+	.pic{
+		width:40%;
+	}
+	.para{
+		width:80%;
+		margin-left:1%;
+		
+	}
+	h2,h1{
+		margin-left:2%;
+	}
+	#ide{
+		margin-top:-23%;
+		margin-left:50%;
+	}
+	#id2{
+		margin-left:50%;
+	}
+
+}

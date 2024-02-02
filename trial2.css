@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+		background:lightblue;
+
+}
+.logo img{
+	width:12%;
+	border-radius:50%;
+	float:right;
+	padding-top:1%;
+	clear:both;
+}
+h4{
+	float:right;
+	font-size:140%;
+	padding-left:50px;
+	padding-right:18%;
+	padding-top:2%;
+	
+}
+
+.icon{
+	font-size:180%;
+	text-decoration:none;
+	float:right;
+}
+#close{
+	display:none;
+
+}
+nav{	
+	float:left;
+	clear:both;
+	padding-left:2.5%;
+	width:40%;
+	height:60vh;
+	background:#f0f0f0;
+	clear:both;
+	position:absolute;
+	margin-top:9.5%;
+	display:none;
+
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	padding-top:12%;
+	font-size:150%;
+	color:black;
+	
+}
+
+.me{
+	width:40%;
+	height:50vh;
+	float:right;
+}
+.me img{
+	width:100%;
+	height:100%;
+}
+
+.mywork{
+	width:40%;
+	height:70vh;
+	float:left;
+	padding-top:2%;
+	padding-left:3%;
+	line-height:1.3;
+	
+}
+#content{
+	position:relative;
+	background:blue;
+}
+
+#Programing_Expertise{
+	width:100%;
+	height:20vh;
+	float:left;
+	margin-top:-18%;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+#end{
+	width:5%;
+	height:5vh;
+	margin-top:10%;
+	clear:both;
+	margin-left:2%;
+}
+#end img{
+	width:100%;
+	display:inline-block;
+}
+
+
+
+@media screen and (min-Width:992px){
+	
+	/*Let me Hide the Hambaggaer Menus*/
+	.icon{
+		display:none;
+	}
+	
+	/*let me put my logo in a different position*/
+	.logo img{
+	width:7%;
+	border-radius:50%;
+	float:left;
+	padding-top:1%;
+	clear:both;
+	margin-top:-1%;
+	}
+	
+	/* let me Remove the Nav from its Hidding Location*/
+	nav{	
+	clear:both;
+	display:block;
+	float:right;
+	margin-top:-3%;
+	background:none;
+	margin-left:50%;
+	}
+	
+	/* let me Get those links in the Nav and style them as well*/
+	nav a{
+	text-decoration:none;
+	display:inline-block;
+	padding-left:10%;
+	}
+	
+	/* let me style that h4 */
+	h4{
+	float:left;
+	}
+    
+	/* let me know mak my image somhow big */
+	.me{
+	width:40%;
+	height:80vh;
+	float:right;
+	margin-top:5%;
+	margin-right:6%;
+	}
+	
+	.me img{
+	width:50%;
+	height:100%;
+	float:right;
+	}
+	.mywork{
+	width:40%;
+	height:70vh;
+	float:left;
+	padding-top:2%;
+	padding-left:3%;
+	line-height:1.3;
+	margin-top:3%;
+	font-size:125%;
+	font-weight:bold;
+	}
+	#end{
+	width:5%;
+	height:5vh;
+	margin-top:10%;
+	clear:both;
+	margin-left:2%;
+	}
+	#end img{
+		width:100%;
+		display:inline-block;
+	}
+}

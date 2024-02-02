@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:lightblue;
+}
+
+.mynav{
+	height:10.8vh;
+}
+
+.mynav ul{
+	list-style:none;
+}
+
+
+
+h4{
+	float:left;
+	font-size:140%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:2%;
+	
+}
+
+.mynav ul li a:first-child{
+	font-size:180%;
+	text-decoration:none;
+	padding-left:13%;
+}
+
+.logo img{
+	width:12%;
+	border-radius:50%;
+	float:left;
+	padding-top:1%;
+}
+
+
+ul li:not(:first-child){
+	display:none;
+}
+
+.me{
+	width:48%;
+	height:70vh;
+	float:right;
+	padding:0;
+	margin:0;
+}
+
+.me img{
+	width:100%;
+	height:100%;
+	float:right;
+}
+
+.mywork{
+	width:48%;
+	height:70vh;
+	float:right;
+	padding-top:2%;
+	padding-left:1%;
+	
+}
+.Programming{
+	width:70%;
+	height:50vh;
+	clear:both;
+}
+
+
+.mynav.responsive ul li{
+	display:block;
+	float:right;
+	clear:both;
+	list-style:none;
+	list-style-type:none;
+	list-style-position:none;
+    list-style-image:none;
+	padding:0;
+	margin:0;
+
+}
+
